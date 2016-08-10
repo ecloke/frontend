@@ -1,0 +1,177 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1091 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  text-align: center;
+  background: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.photo{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:900px;
+}
+#qwe{
+	float:left;
+}
+#asd{
+	float:right;
+}
+figure.snip1091 * {
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 img {
+  opacity: 0.25;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+figure.snip1091 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  right: 30px;
+  -webkit-transform: rotate(0deg) translateY(-50%) scale(1);
+  transform: rotate(0deg) translateY(-50%) scale(1);
+  -webkit-transform-origin: center 0;
+  transform-origin: center 0;
+}
+
+figure.snip1091 figcaption h2 {
+  top: 50%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: 400;
+  font-size:50px;
+}
+
+figure.snip1091 figcaption h2 span {
+  font-weight: 800;
+  font-size:50px;
+}
+
+figure.snip1091 figcaption:before,
+figure.snip1091 figcaption:after {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+
+}
+
+figure.snip1091 figcaption:before {
+  left: 0;
+  top: 0;
+}
+
+figure.snip1091 figcaption:after {
+  bottom: 0;
+  right: 0;
+}
+
+
+figure.snip1091.green {
+  background: #061c10;
+}
+
+figure.snip1091.navy {
+  background: #000000;
+}
+
+figure.snip1091 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+figure.snip1091:hover img,
+figure.snip1091.hover img {
+  opacity: 0.7;
+}
+
+figure.snip1091:hover figcaption,
+figure.snip1091.hover figcaption {
+  -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
+  transform: rotate(-45deg) translateY(-50%) scale(0.9);
+
+}
+
+figure.snip1091:hover figcaption:before,
+figure.snip1091.hover figcaption:before,
+figure.snip1091:hover figcaption:after,
+figure.snip1091.hover figcaption:after {
+  width: 200%;
+
+}
+
+.hero{
+  position: absolute;
+  z-index: 99999;
+  font-family: "Montserrat", sans-serif;
+  text-align:center;
+  width:100%;
+  top:10%;
+}
+.hero h1 {
+  font-size: 50px;
+  line-height: 1.3;
+   letter-spacing: 10px;
+   color:#019D8C;
+}
+.hero h1 span {
+  font-size: 25px;
+  color: #e8f380;
+  border-bottom: 2px solid #e8f380;
+  padding-bottom: 12px;
+  line-height: 3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero a {
+  color:white;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+
+
+.hero a:hover{
+  text-decoration: none;
+}
+
+.hero a:hover{
+  color:#e8f380;
+}
+
+.hero i {
+  font-size:40px;
+  color:white;
+  margin-right: 10px;
+}
+
+.hero i:hover{
+  color:#e8f380;
+}
